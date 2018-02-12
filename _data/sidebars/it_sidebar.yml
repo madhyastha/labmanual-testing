@@ -1,0 +1,50 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: IT Manual
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Around
+    output: web, pdf
+    folderitems:
+
+    - title: Accessing IBIC Computers
+      url: /it_access.html
+      output: web, pdf
+      type: homepage
+
+    - title: Passwordless SSH
+      url: /it_ssh.html
+      output: web, pdf
+
+    - title: Permissions
+      url: /it_permissions.html
+      output: web, pdf
+
+  - title: Advanced Topics
+    output: web, pdf
+    folderitems:
+
+    - title: Using the Gridengine
+      url: /it_sge.html
+      output: web, pdf
+
+    - title: Backup to Cloud
+      url: /it_backup.html
+      output: web, pdf
+

@@ -1,0 +1,51 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Neuroimaging Manual
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Workflow
+    output: web, pdf
+    folderitems:
+
+    - title: Make for Neuroimaging
+      url: /neuroimaging_make.html
+      output: web, pdf
+      type: homepage
+
+  - title: FSL
+    output: web, pdf
+    folderitems:
+
+    - title: Slicer and Overlay
+      url: /neuroimaging_fslslicer.html
+      output: web, pdf
+      type: homepage
+
+  - title: AFNI
+    output: web, pdf
+    folderitems:
+
+    - title: Bootcamp Notes
+      url: /neuroimaging_afnibootcamp.html
+      output: web, pdf
+
+    - title: Seed-based Analysis
+      url: /neuroimaging_seed.html
+      output: web, pdf
+

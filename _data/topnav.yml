@@ -1,0 +1,23 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/ibic
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: IBIC Lab Manual
+      folderitems:
+        - title: Welcome to IBIC
+          url: /mydoc_introduction.html
+        - title: IT Manual
+          url: /it_introduction.html
+        - title: Neuroimaging 
+          url: /neuroimaging_introduction.html
+

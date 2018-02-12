@@ -1,0 +1,46 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Welcome to IBIC
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Welcome to IBIC
+    output: web, pdf
+    folderitems:
+
+    - title: Checklist for New RAs
+      url: /mydoc_checklist.html
+      output: web, pdf
+
+    - title: IBIC to English Dictionary
+      url: /mydoc_dictionary.html
+      output: web, pdf
+      type: homepage
+
+    - title: UNIX Questions
+      url: /mydoc_sampleunixquestions.html
+      output: web, pdf
+
+    - title: Maya's UNIX Bible
+      url: /mydoc_unixbible.html
+      output: web, pdf
+
+    - title: Making Posters
+      url: /mydoc_poster.html
+      output: web, pdf
+
