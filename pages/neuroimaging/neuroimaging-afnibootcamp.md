@@ -76,13 +76,13 @@ nifti_tool -disp_hdr -input T1.nii.gz
 ## Keeping up AFNI
 Update AFNI using:
 
-```{bash, eval=FALSE}
+```
 @update.afni.binaries
 ```
 
 To get the afni version number, type
 
-```{bash, eval=FALSE}
+```
 afni -ver
 ```
     
